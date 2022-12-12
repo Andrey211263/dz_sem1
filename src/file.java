@@ -29,11 +29,7 @@ public class file {
 
         }
 
-
-
-
         String new_lines;
-
         new_lines = readlines();
         System.out.println(new_lines);
         writelines(new_lines, logger);

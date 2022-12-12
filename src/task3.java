@@ -39,8 +39,15 @@ public class task3 {
                         System.out.println(num1 + " * " + num2 + " = " + mul);
                     }
                     case '/' -> {
-                        double div = num1 / num2;
-                        System.out.println(num1 + " / " + num2 + " = " + div);
+                        if(num2 != 0)
+                        {
+                            double div = num1 / num2;
+                            System.out.println(num1 + " / " + num2 + " = " + div);
+                        }
+                        else
+                        {
+                            System.out.println("*На ноль делить нельзя!*");
+                        }
                     }
                     default -> System.out.println("Это мы не умеем! ");
                 }
