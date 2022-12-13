@@ -6,7 +6,7 @@ import java.util.Scanner;
 // что его нет.
 public class task4 {
     public static void main(String[] args) {
-        String str = "2a + b5 = 91";
+        String str = "2a + b5 = 89";
         String[] rt = str.split(" ");
 
         int sum = Integer.parseInt(rt[4]);

@@ -14,7 +14,7 @@ public class task3 {
 
 
             Scanner iScanner = new Scanner(System.in);
-            System.out.print("Введите выражение разделяя элементы пробелами: ");
+            System.out.print("Введите выражение разделяя элементы пробелами. Выход 0: ");
             String str = iScanner.nextLine();
 
             rt = str.split(" "); //получаем распарсиную строку
